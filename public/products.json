@@ -1,0 +1,127 @@
+{
+  "categories": [
+    {
+      "id": "tech",
+      "name": "Tech Gadgets",
+      "description": "Latest technology and innovative gadgets",
+      "products": [
+        {
+          "id": "p1",
+          "title": "Wireless Bluetooth Headphones",
+          "description": "Noise cancelling, 40hr battery, premium sound quality",
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+          "price": "₹1,999",
+          "rating": 4.8,
+          "isFeatured": true,
+          "affiliateLink": "https://amazon.in/s?k=wireless+bluetooth+headphones"
+        },
+        {
+          "id": "p2",
+          "title": "USB-C Fast Charging Cable",
+          "description": "100W PD, durable nylon braided",
+          "image": "https://images.unsplash.com/photo-1625948515291-69613efd103f?w=400&h=400&fit=crop",
+          "price": "₹499",
+          "rating": 4.6,
+          "affiliateLink": "https://amazon.in/s?k=usb-c+fast+charging"
+        },
+        {
+          "id": "p3",
+          "title": "Portable Power Bank 30000mAh",
+          "description": "Fast charging, LED display, compact",
+          "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400&h=400&fit=crop",
+          "price": "₹1,299",
+          "rating": 4.7,
+          "affiliateLink": "https://amazon.in/s?k=power+bank+30000mah"
+        },
+        {
+          "id": "p4",
+          "title": "Wireless Gaming Mouse",
+          "description": "High precision, RGB lighting, ergonomic",
+          "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=400&h=400&fit=crop",
+          "price": "₹1,799",
+          "rating": 4.5,
+          "affiliateLink": "https://amazon.in/s?k=wireless+gaming+mouse"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "name": "Audio & Music",
+      "description": "Premium speakers and sound devices",
+      "products": [
+        {
+          "id": "p5",
+          "title": "Bluetooth Speaker Waterproof",
+          "description": "360° sound, 12hr battery, water resistant IPX7",
+          "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
+          "price": "₹2,499",
+          "rating": 4.9,
+          "isFeatured": true,
+          "affiliateLink": "https://amazon.in/s?k=bluetooth+speaker+waterproof"
+        },
+        {
+          "id": "p6",
+          "title": "USB Studio Microphone",
+          "description": "HD recording, plug and play, mute button",
+          "image": "https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=400&h=400&fit=crop",
+          "price": "₹3,999",
+          "rating": 4.7,
+          "affiliateLink": "https://amazon.in/s?k=usb+studio+microphone"
+        },
+        {
+          "id": "p7",
+          "title": "Noise Cancelling Earbuds",
+          "description": "Active noise cancellation, 8hr battery",
+          "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400&h=400&fit=crop",
+          "price": "₹4,499",
+          "rating": 4.8,
+          "affiliateLink": "https://amazon.in/s?k=noise+cancelling+earbuds"
+        }
+      ]
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "description": "Essential tech accessories",
+      "products": [
+        {
+          "id": "p8",
+          "title": "Phone Mount for Car",
+          "description": "Universal fit, stable grip, easy installation",
+          "image": "https://images.unsplash.com/photo-1511707267537-b85faf00021e?w=400&h=400&fit=crop",
+          "price": "₹399",
+          "rating": 4.6,
+          "affiliateLink": "https://amazon.in/s?k=phone+mount+car"
+        },
+        {
+          "id": "p9",
+          "title": "Laptop Stand Adjustable",
+          "description": "Aluminum, adjustable height, cooling",
+          "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=400&fit=crop",
+          "price": "₹1,599",
+          "rating": 4.7,
+          "affiliateLink": "https://amazon.in/s?k=laptop+stand+adjustable"
+        },
+        {
+          "id": "p10",
+          "title": "HDMI 2.1 Cable 8K",
+          "description": "High speed, 48Gbps, gold plated",
+          "image": "https://images.unsplash.com/photo-1625948515291-69613efd103f?w=400&h=400&fit=crop",
+          "price": "₹699",
+          "rating": 4.5,
+          "affiliateLink": "https://amazon.in/s?k=hdmi+2.1+cable"
+        },
+        {
+          "id": "p11",
+          "title": "Screen Protector Tempered Glass",
+          "description": "9H hardness, anti-fingerprint, crystal clear protective film",
+          "image": "https://images.unsplash.com/photo-1511450471237-28d496fac81b?w=400&h=400&fit=crop",
+          "price": "₹299",
+          "rating": 4.8,
+          "isFeatured": true,
+          "affiliateLink": "https://amazon.in/s?k=screen+protector+tempered"
+        }
+      ]
+    }
+  ]
+}
