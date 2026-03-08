@@ -38,7 +38,7 @@ function ProductImageGallery({ image, title }: { image: string; title: string })
 
     return (
         <div className="relative group">
-            <div className="relative aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 border border-slate-200/60 dark:border-slate-700/60">
+            <div className="relative aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-slate-50 via-white to-slate-50 dark:from-slate-800 dark:to-slate-900 border border-slate-200/60 dark:border-slate-700/60 p-6 sm:p-8">
                 {/* Shimmer */}
                 {!imageLoaded && (
                     <div className="absolute inset-0 bg-gradient-to-r from-slate-200 via-slate-100 to-slate-200 dark:from-slate-700 dark:via-slate-600 dark:to-slate-700 animate-shimmer" />
@@ -48,7 +48,7 @@ function ProductImageGallery({ image, title }: { image: string; title: string })
                     alt={title}
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
-                    className={`object-cover transition-all duration-700 ease-out group-hover:scale-105 ${imageLoaded ? 'opacity-100' : 'opacity-0'
+                    className={`object-contain p-4 transition-all duration-700 ease-out group-hover:scale-105 ${imageLoaded ? 'opacity-100' : 'opacity-0'
                         }`}
                     priority
                     quality={90}
@@ -110,7 +110,7 @@ function RelatedProductCard({ product }: { product: Product }) {
     return (
         <Link href={`/product/${product.id}`} className="group block">
             <div className="rounded-xl overflow-hidden border border-slate-200/80 dark:border-slate-700/60 bg-white dark:bg-slate-800/80 shadow-sm hover:shadow-md transition-all duration-300">
-                <div className="relative aspect-[4/3] overflow-hidden bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-800 dark:to-slate-900">
+                <div className="relative aspect-square overflow-hidden bg-gradient-to-br from-slate-50 via-white to-slate-50 dark:from-slate-800 dark:to-slate-900 p-3">
                     {!imageLoaded && (
                         <div className="absolute inset-0 bg-gradient-to-r from-slate-200 via-slate-100 to-slate-200 dark:from-slate-700 dark:via-slate-600 dark:to-slate-700 animate-shimmer" />
                     )}
@@ -119,7 +119,7 @@ function RelatedProductCard({ product }: { product: Product }) {
                         alt={product.title}
                         fill
                         sizes="(max-width: 640px) 50vw, 25vw"
-                        className={`object-cover transition-transform duration-500 group-hover:scale-105 ${imageLoaded ? 'opacity-100' : 'opacity-0'
+                        className={`object-contain p-2 transition-transform duration-500 group-hover:scale-105 ${imageLoaded ? 'opacity-100' : 'opacity-0'
                             }`}
                         loading="lazy"
                         quality={75}

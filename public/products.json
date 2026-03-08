@@ -1,125 +1,98 @@
 {
   "categories": [
     {
-      "id": "tech",
-      "name": "Tech Gadgets",
-      "description": "Latest technology and innovative gadgets",
+      "id": "pet-care",
+      "name": "Pet Care",
+      "description": "Grooming and care essentials for pets",
       "products": [
         {
           "id": "p1",
-          "title": "Wireless Bluetooth Headphones",
-          "description": "Noise cancelling, 40hr battery, premium sound quality",
-          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
-          "price": "₹1,999",
-          "rating": 4.8,
-          "isFeatured": true,
-          "affiliateLink": "https://amazon.in/s?k=wireless+bluetooth+headphones"
-        },
-        {
-          "id": "p2",
-          "title": "USB-C Fast Charging Cable",
-          "description": "100W PD, durable nylon braided",
-          "image": "https://images.unsplash.com/photo-1625948515291-69613efd103f?w=400&h=400&fit=crop",
-          "price": "₹499",
-          "rating": 4.6,
-          "affiliateLink": "https://amazon.in/s?k=usb-c+fast+charging"
-        },
-        {
-          "id": "p3",
-          "title": "Portable Power Bank 30000mAh",
-          "description": "Fast charging, LED display, compact",
-          "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400&h=400&fit=crop",
-          "price": "₹1,299",
-          "rating": 4.7,
-          "affiliateLink": "https://amazon.in/s?k=power+bank+30000mah"
-        },
-        {
-          "id": "p4",
-          "title": "Wireless Gaming Mouse",
-          "description": "High precision, RGB lighting, ergonomic",
-          "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=400&h=400&fit=crop",
-          "price": "₹1,799",
+          "title": "Amazon Basics Self Cleaning Slicker Pet Grooming Brush",
+          "description": "Self-cleaning slicker brush for grooming all pet coat types.",
+          "image": "/images/pet-grooming-brush.png",
+          "price": "₹164",
+          "originalPrice": "₹514",
           "rating": 4.5,
-          "affiliateLink": "https://amazon.in/s?k=wireless+gaming+mouse"
+          "isFeatured": true,
+          "affiliateLink": "https://amzn.to/3OOgqxJ"
         }
       ]
     },
     {
-      "id": "audio",
-      "name": "Audio & Music",
-      "description": "Premium speakers and sound devices",
+      "id": "car-accessories",
+      "name": "Car Accessories",
+      "description": "Useful accessories for safer and easier driving",
       "products": [
         {
-          "id": "p5",
-          "title": "Bluetooth Speaker Waterproof",
-          "description": "360° sound, 12hr battery, water resistant IPX7",
-          "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
-          "price": "₹2,499",
-          "rating": 4.9,
-          "isFeatured": true,
-          "affiliateLink": "https://amazon.in/s?k=bluetooth+speaker+waterproof"
+          "id": "p2",
+          "title": "SKYVIK TRUHOLD Magnetic AC Air-Vent/Dashboard Car Mount",
+          "description": "Magnetic phone holder designed for AC vent and dashboard mounting.",
+          "image": "/images/car-phone-mount.png",
+          "price": "₹1,199",
+          "originalPrice": "₹1,999",
+          "rating": 4.4,
+          "affiliateLink": "https://amzn.to/4sxxwOQ"
+        }
+      ]
+    },
+    {
+      "id": "home-decor-lighting",
+      "name": "Home Decor & Lighting",
+      "description": "Decor and ambient lighting for rooms and setups",
+      "products": [
+        {
+          "id": "p3",
+          "title": "Desidiya 16-Color LED Night Light Sunset Lamp",
+          "description": "USB sunset projection lamp with remote and 360-degree rotation.",
+          "image": "/images/sunset-lamp.png",
+          "price": "₹279",
+          "originalPrice": "₹1,999",
+          "rating": 4.3,
+          "affiliateLink": "https://amzn.to/40R85vL"
+        }
+      ]
+    },
+    {
+      "id": "health-personal-care",
+      "name": "Health & Personal Care",
+      "description": "Support, comfort and personal care essentials",
+      "products": [
+        {
+          "id": "p4",
+          "title": "PLETHEON Posture Corrector Belt for Men & Women",
+          "description": "Adjustable upper back and clavicle support brace for posture alignment.",
+          "image": "/images/posture-corrector.png",
+          "price": "₹249",
+          "originalPrice": "₹1,499",
+          "rating": 4.2,
+          "affiliateLink": "https://amzn.to/4cTGi5l"
         },
         {
           "id": "p6",
-          "title": "USB Studio Microphone",
-          "description": "HD recording, plug and play, mute button",
-          "image": "https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=400&h=400&fit=crop",
-          "price": "₹3,999",
-          "rating": 4.7,
-          "affiliateLink": "https://amazon.in/s?k=usb+studio+microphone"
-        },
-        {
-          "id": "p7",
-          "title": "Noise Cancelling Earbuds",
-          "description": "Active noise cancellation, 8hr battery",
-          "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400&h=400&fit=crop",
-          "price": "₹4,499",
-          "rating": 4.8,
-          "affiliateLink": "https://amazon.in/s?k=noise+cancelling+earbuds"
+          "title": "Bodywise Scalp Massager (Manual Head Massager)",
+          "description": "Manual scalp brush for exfoliation and scalp stimulation.",
+          "image": "/images/scalp-massager.png",
+          "price": "₹255",
+          "originalPrice": "₹599",
+          "rating": 4.6,
+          "affiliateLink": "https://amzn.to/40jM8oT"
         }
       ]
     },
     {
-      "id": "accessories",
-      "name": "Accessories",
-      "description": "Essential tech accessories",
+      "id": "kitchen-appliances",
+      "name": "Kitchen Appliances",
+      "description": "Portable kitchen tools and food prep devices",
       "products": [
         {
-          "id": "p8",
-          "title": "Phone Mount for Car",
-          "description": "Universal fit, stable grip, easy installation",
-          "image": "https://images.unsplash.com/photo-1511707267537-b85faf00021e?w=400&h=400&fit=crop",
-          "price": "₹399",
-          "rating": 4.6,
-          "affiliateLink": "https://amazon.in/s?k=phone+mount+car"
-        },
-        {
-          "id": "p9",
-          "title": "Laptop Stand Adjustable",
-          "description": "Aluminum, adjustable height, cooling",
-          "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=400&fit=crop",
-          "price": "₹1,599",
-          "rating": 4.7,
-          "affiliateLink": "https://amazon.in/s?k=laptop+stand+adjustable"
-        },
-        {
-          "id": "p10",
-          "title": "HDMI 2.1 Cable 8K",
-          "description": "High speed, 48Gbps, gold plated",
-          "image": "https://images.unsplash.com/photo-1625948515291-69613efd103f?w=400&h=400&fit=crop",
-          "price": "₹699",
-          "rating": 4.5,
-          "affiliateLink": "https://amazon.in/s?k=hdmi+2.1+cable"
-        },
-        {
-          "id": "p11",
-          "title": "Screen Protector Tempered Glass",
-          "description": "9H hardness, anti-fingerprint, crystal clear protective film",
-          "image": "https://images.unsplash.com/photo-1511450471237-28d496fac81b?w=400&h=400&fit=crop",
-          "price": "₹299",
-          "rating": 4.8,
-          "isFeatured": true,
-          "affiliateLink": "https://amazon.in/s?k=screen+protector+tempered"
+          "id": "p5",
+          "title": "Portable Blender Electric Juicer USB Rechargeable",
+          "description": "Mini personal blender with 6 blades and 1500mAh rechargeable battery.",
+          "image": "/images/portable-blender.png",
+          "price": "₹499",
+          "originalPrice": "₹1,299",
+          "rating": 4.1,
+          "affiliateLink": "https://amzn.to/46Rds1A"
         }
       ]
     }

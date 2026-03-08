@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 08 Mar 2026 11:21:34 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 335
+Cache-Control: private, max-age=90
+Content-Security-Policy: referrer always;
+Location: https://www.amazon.in/Cleaning-Slicker-Grooming-Suitable-Rectangular/dp/B0CV55MWXK?source=ps-sl-shoppingads-lpcontext&smid=A2AL6IVND0I91F&utm_source=chatgpt.com&th=1&linkCode=sl2&tag=dealnest0e7-21&linkId=57579280841a9d49594268447b0dd31d&ref_=as_li_ss_tl
+Referrer-Policy: unsafe-url
+Set-Cookie: _bit=q28bly-6e116552a1760ca9aa-00f; Domain=amzn.to; Expires=Fri, 04 Sep 2026 11:21:34 GMT
+Strict-Transport-Security: max-age=1209600
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Sun, 08 Mar 2026 11:21:35 GMT
+cache-control: no-transform
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+server: Server
+x-amz-rid: VZT4702A0G8GGY2MWJVV
+vary: Content-Type,Accept-Encoding,User-Agent
+X-Cache: Miss from cloudfront
+Via: 1.1 ed7ae31235b8ed36f3f4794d64e4fb2a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM54-P2
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: T8kvr_axsFp1NlT_7bALslttkTiZHrLg314peB85kP97vCsY8CELfw==
+

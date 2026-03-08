@@ -14,6 +14,7 @@ interface Product {
   description: string;
   image: string;
   price: string;
+  originalPrice?: string;
   rating: number;
   affiliateLink: string;
   category?: string;
