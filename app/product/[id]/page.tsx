@@ -15,6 +15,7 @@ interface Product {
     description: string;
     image: string;
     price: string;
+    originalPrice?: string;
     rating: number;
     affiliateLink: string;
     isFeatured?: boolean;
@@ -312,10 +313,24 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
 
                             {/* Price */}
                             <div className="mb-5">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-3">
                                     <span className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">
                                         {product.price}
                                     </span>
+                                    {product.originalPrice && (
+                                        <>
+                                            <span className="text-lg sm:text-xl text-slate-400 dark:text-slate-500 line-through">
+                                                {product.originalPrice}
+                                            </span>
+                                            <span className="inline-flex items-center rounded-md bg-green-50 dark:bg-green-500/10 border border-green-200 dark:border-green-500/30 px-2 py-0.5 text-xs font-bold text-green-700 dark:text-green-400">
+                                                {(() => {
+                                                    const current = parseInt(product.price.replace(/[^0-9]/g, ''));
+                                                    const original = parseInt(product.originalPrice.replace(/[^0-9]/g, ''));
+                                                    return `${Math.round(((original - current) / original) * 100)}% off`;
+                                                })()}
+                                            </span>
+                                        </>
+                                    )}
                                 </div>
                                 <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
                                     Inclusive of all taxes. Price may vary on Amazon.
